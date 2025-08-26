@@ -173,8 +173,11 @@ const ModernPortfolio = () => {
 
   return (
     <div className="min-h-screen bg-gray-900 text-white overflow-x-hidden">
+      
       {/* Navigation */}
       <Navigation />
+      
+      {/* Hero Section */}
       <Hero />
 
       {/* About Section */}
@@ -235,7 +238,7 @@ const ModernPortfolio = () => {
                           {skill.name}
                         </h4>
                         {/* Progress Circle */}
-                        <div className="relative w-16 h-16 mx-auto mb-2">
+                        {/* <div className="relative w-16 h-16 mx-auto mb-2">
                           <svg
                             className="w-16 h-16 transform -rotate-90"
                             viewBox="0 0 64 64"
@@ -290,7 +293,7 @@ const ModernPortfolio = () => {
                               {skill.level}%
                             </span>
                           </div>
-                        </div>
+                        </div> */}
                       </div>
                       {/* Glow effect */}
                       <div
